@@ -127,6 +127,36 @@ Launches the native desktop graphical interface. The GUI encapsulates all CLI cr
 qcrypt gui
 ```
 
+#### Interface Overview
+
+**Key Generation**  
+![Keygen](assets/tab_keygen.png)  
+*Generate post-quantum ML-KEM keys directly to disk or the decentralized IPFS swarm with optional YubiKey binding.*
+
+**Keygen (Ethereum Bind)**  
+![Keygen Eth](assets/tab_keygen_eth.png)  
+*Bind your generation directly to an Ethereum wallet for seamless Arweave L1 settlement integration.*
+
+**Encryption**  
+![Encrypt](assets/tab_encrypt.png)  
+*Select your target payload and execute the hybrid AES/ML-KEM cipher pipeline with real-time operational telemetry.*
+
+**Decryption**  
+![Decrypt](assets/tab_decrypt.png)  
+*Unlock payloads using your private key and passphrase. Hardware tokens are prompted dynamically if required.*
+
+**Forensics**  
+![Forensics](assets/tab_forensic.png)  
+*Mathematically scan encrypted archives for structural corruption or regenerate lost public keys instantly.*
+
+**Steganography**  
+![Steganography](assets/tab_steganography.png)  
+*Inject or extract ML-KEM private keys directly into the LSB matrix of carrier images to achieve complete forensic invisibility.*
+
+**YubiKey Provisioning**  
+![YubiKey](assets/tab_yubikey.png)  
+*Provision deterministic HMAC-SHA1 challenge-response secrets directly to your physical hardware token.*
+
 ### 6. Steganography Toolkit
 Raw LSB steganography engine for manipulating keys inside PNG/BMP carrier images natively without triggering a full encryption/decryption pipeline.
 ```bash
