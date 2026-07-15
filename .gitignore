@@ -1,0 +1,7 @@
+/target
+*.pem
+*.enc
+test.txt
+.env
+*.cid
+.agents/
