@@ -14,7 +14,7 @@ The tool utilizes a strict Hybrid Cryptography model:
 
 ## Enterprise & Military-Grade Defenses
 
-The architecture has been heavily audited and fortified against physical, memory, and cryptographic threat vectors:
+The architecture has been heavily fortified against physical, memory, and cryptographic threat vectors:
 
 ### 1. Cryptographic Standards Compliance
 - **RFC 7468 (PEM Base64 Armoring)**: Asymmetric keys are strictly Base64 encoded and wrapped in standard ASCII headers (e.g., `-----BEGIN ENCRYPTED ML-KEM-1024 PRIVATE KEY-----`).
